@@ -1,15 +1,139 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.heading, .footer {
+.header, .footer {
     background-color: #1F2937;
 }
 
+/*Header*/
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.header h2 {
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 12px;
+}
+.header ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/*Wrapper*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+/* Section 1 */
+.section1 {
+    display: flex;
+}
+
+.container-heading h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.container-heading p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+img {
+    width: 350px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* Section 2*/
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.box-container {
+    display: flex;
+    gap: 16px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 130px;
+}
+.box-img {
+    border: 3px solid #3882f6;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+.box p {
+    text-align: center;
+}
+
+/*Section 3*/
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 36px;
+    width: 500px;
+}
+
+/*Section 4*/
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.section4-container {
+    width: 70%;
+    height: auto;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    display: flex;
+    padding: 36px;
+    justify-content: center;
+    
+}
+
+.left {
+    width: 60%;
+}
+.section4-container button {
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    
 }
