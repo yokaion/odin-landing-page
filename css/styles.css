@@ -155,8 +155,11 @@ quote {
 }
 .section4-container button {
     border: 1px solid #f9faf8;
-    border-radius: 5px;
+    border-radius: 3px;
     flex-shrink: 0;
+    margin: 16px;
+    padding: 0 16px;
+    
 }
 /* Footer */
 footer {
